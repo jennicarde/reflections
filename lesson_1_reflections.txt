@@ -1,0 +1,30 @@
+*How did viewing a diff between two versions of a file help you see the bug that was introduced?*
+
+Using the diff command in the command line let me compare two documents (an old and new version)
+and it showed me lines that had changes made to it. The files are represented by - and + symbols.
+
+*How could having easy access to the entire history of a file make you a more efficient programmer
+in the long term?*
+I'd be able to easily see and compare changes. The struggle is with large documents. Having a tool
+that can help make this easier and faster will make me a more efficient programmer.
+
+*What do you think are the pros and cons of manually choosing when to create a commit, like you do
+in Git, vs having versions automatically saved, like Google Docs does?*
+It means that the changes are more meaningful. I update a feature. I fix typos.
+ONE COMMIT PER LOGICAL CHANGE.
+
+*Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?*
+Because they want to keep it as a whole so you don't have to keep looking back in time.
+
+*How can you use the commands git log and git diff to view the history of files?*
+I can view the newer commits (most recent on top) and read the change (under the id), then I can
+compare them using diff. By adding colors to the command line, I can view the changes in green and
+red with +/- symbols to indicate addition/deletion.
+
+*How might using version control make you more confident to make changes that could break something?*
+I can easily go back and find where the 'break' was, then restore the older version or fix it.
+
+*Now that you have your workspace set up, what do you want to try using Git for?*
+I don't have my workspace set up because I already have my terminal set. I didn't do the git bash
+profile. 
